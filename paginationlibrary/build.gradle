@@ -5,11 +5,11 @@ plugins {
 
 android {
     namespace 'com.example.paginationlibrary'
-    compileSdk 33
+    compileSdk 31
 
     defaultConfig {
-        minSdk 24
-        targetSdk 33
+        minSdk 26
+        targetSdk 31
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -47,7 +47,7 @@ afterEvaluate {
                 from components.release
                 groupId = "com.example.paginationlibrary"
                 artifactId = "PaginationTestLibrary"
-                version = "1.2"
+                version = "1.3"
 
             }
         }

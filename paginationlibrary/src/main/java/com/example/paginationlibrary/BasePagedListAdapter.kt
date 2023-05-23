@@ -6,7 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
  * Created by Muhammad Fikri Fadilah on 22/05/2023.
  */
 abstract class BasePagedListAdapter :
-    RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     companion object {
         const val PAGING_LOAD = "PAGING_LOAD"
         const val PAGING_FAIL = "PAGING_FAIL"

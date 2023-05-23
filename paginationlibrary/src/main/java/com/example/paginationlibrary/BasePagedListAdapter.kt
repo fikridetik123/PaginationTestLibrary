@@ -13,7 +13,6 @@ abstract class BasePagedListAdapter :
     }
     var items = mutableListOf<Any>()
 
-    lateinit var mPagingListener: ListenerPaging
     private var mPagingLoadingPosition = 0
     private var mPagingLoadingState = false
 
